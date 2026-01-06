@@ -1,6 +1,13 @@
 # Project Overview
 This project performs end-to-end market and pricing analysis on the Boston Airbnb market, leveraging EDA and predictive modeling to recommend prices for new listings. The analysis uncovers key demand and pricing drivers, enabling hosts and investors to optimize pricing, positioning, and revenue potential.
 
+## Tools & Technologies
+- Python (pandas, NumPy) for data cleaning, transformation, and analysis
+- Data Visualization: Matplotlib, Seaborn
+- scikit-learn (MinMaxScaler) for data normalization and scaling 
+- Linear Regression, Ridge, Lasso for price prediction and feature importance analysis
+- Model evaluation using MSE and RMSE
+  
 ## Key Findings & Insights
 1. Pricing Dynamics
   - Airbnb prices in Boston are highly right-skewed, with most listings clustered in the low-to-mid price range.
